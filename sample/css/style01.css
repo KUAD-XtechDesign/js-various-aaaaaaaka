@@ -15,14 +15,14 @@ li{
 }
 
 img{
-  max-width: 100%;
+  max-width: 150%;
 }
 
 header{
   position: fixed;
   width: 100%;
   color: #fff;
-  background-color: rgb(255, 245, 112);
+  background-color: rgb(128, 87, 41);
   padding: 20px;
   display: flex;
   align-items: center;
@@ -33,15 +33,16 @@ header{
 footer{
   position: fixed;
   width: 100%;
-  background-color: rgb(255, 223, 79);
+  color: rgb(122, 93, 49);
+  background-color: rgb(255, 234, 138);
   bottom:0;
-  padding: 5px;
+  padding: 60px;
   text-align: right;
   font-size: 10px;
 }
 
 header h1{
-  font-size: 10px;
+  font-size: 40px;
 }
 
 header ul{
@@ -72,24 +73,24 @@ header ul li{
 
 #person{
   position: absolute;
-  top:200px;
-  right: -100px;
+  top:90px;
+  right: -300px;
   width: 100px;
-  transition: 0.6s all;
+  transition: 0.8s all;
 }
 
 #person.anime{
-  right: 10px;
+  right: 1500px;
 }
 
 
 #car{
   position: absolute;
-  bottom:100px;
+  bottom:200px;
   max-width: 40%;
-  left: -250px;
+  left: -500px;
   width: 250px;
-  transition: 0.6s all;
+  transition: 1.5s all;
 }
 
 #car.anime{
@@ -97,9 +98,9 @@ header ul li{
 }
 
 #food{
-  width: 200%;
-  bottom: 10%;
-  margin-left: -25%;
+  width: 1000%;
+  bottom: 20%;
+  margin-left: -10%;
   left: 50%;
   position: absolute;
   opacity: 0;
@@ -110,8 +111,10 @@ header ul li{
   /* cssライブラリanimate.cssを利用 */
   animation: zoomInDown;
   animation-duration: 1s; 
-  opacity: 1;
+  opacity: 5;
 }
+
+
 
 
 #intro{
